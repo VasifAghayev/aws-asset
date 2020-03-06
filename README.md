@@ -35,7 +35,11 @@ curl https://raw.githubusercontent.com/wallix/awless/master/getawless.sh | bash
 ```
 pip install awscli --upgrade
 ```
-4. Configure each aws account with aws cli. For consitency, profile name should be identical to aws account name.
+4. Install requirements
+```
+pip install -r requirements.txt
+```
+5. Configure each aws account with aws cli. For consitency, profile name should be identical to aws account name.
  ```
 aws configure --profile [profile_name]
 ```
