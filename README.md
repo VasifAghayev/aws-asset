@@ -27,10 +27,7 @@ There are two versions of the program:
 ## Prerequisites
 To run this program:
 1. Install Python version 3.6 and pip
-2. Install [awless](https://github.com/wallix/awless)
-```
-curl https://raw.githubusercontent.com/wallix/awless/master/getawless.sh | bash
-``` 
+2. Install [awless](https://github.com/wallix/awless/releases)
 3. Install **awscli**
 ```
 pip install awscli --upgrade
