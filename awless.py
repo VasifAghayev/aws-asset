@@ -34,9 +34,12 @@ awless_commands = {
 	'iam':['groups', 'users', 'accesskeys', 'mfadevices', 'roles', 'policies', 'instanceprofiles'],
 	's3':['buckets', 's3objects'],
 	'sns':['subscriptions'],
+        'sqs':['queues'],
+        'cdn':['distributions'],
 	'route53':['zones', 'records'],
 	'lambd':['functions'],
-	'cloudwatch':['alarms'],
+        'cloudformation':['stacks'],
+	'cloudwatch':['alarms', 'metrics'],
 	'acm':['certificates']
 }
 
